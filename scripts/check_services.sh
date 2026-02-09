@@ -1,4 +1,4 @@
-#//bin/bash
+#!/bin/bash
 
 # Check the status of common system services and report whether they are active.
 # Provides a clear, readable summary of service states.
