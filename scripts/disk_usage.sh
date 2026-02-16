@@ -5,7 +5,7 @@
 #     - Top 3 largest files/directories
 
 # Usage:
-#   ./disk_usage_report.sh <directory>
+#   ./disk_usage.sh <directory>
 
 SOURCE_DIR="$1"
 
