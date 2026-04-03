@@ -4,3 +4,7 @@ output/
 # Temporary files
 *.log
 *.tmp
+
+venv/
+__pycache__/
+.vscode/
