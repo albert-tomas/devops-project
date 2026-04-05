@@ -1,15 +1,23 @@
-# Devops Project
-Personal project to learn Linux, Git, Docker, CI/CD and basic automation step by step.
+# DevOps Project
 
-## Scripts
+Personal project to learn DevOps basics by building a simple deployment pipeline.
 
-### analyze_logs.sh
-Analyzes system log files to identify error messages and displays recent entries.
-### check_services.sh
-Checks the status of common system services and reports whether they are active.
-### users_report.sh
-Generates a system users report by reading /etc/passwd and extracting each user’s login shell.
-### disk_usage.sh
-Analyzes disk usage for a specified directory, displays the total size, and lists the largest files or folders.
-### process_check.sh
-Checks if a specified process is running and shows its PID.
+## What I did
+
+- Created a small Python application
+- Containerized it using Docker
+- Set up a CI/CD pipeline with GitHub Actions
+- Deployed it to an AWS EC2 instance
+
+## How it works
+
+On each push:
+
+- A Docker image is built
+- The image is pushed to Docker Hub
+- The server pulls the new version
+- The container is restarted with the updated app
+
+## Goal
+
+The idea of this project is to understand how an application goes from code to running in a server, using basic DevOps tools.
